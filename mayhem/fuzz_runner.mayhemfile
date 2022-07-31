@@ -1,0 +1,7 @@
+project: aptos-core
+target: fuzz-runner
+
+cmds:
+  - cmd: /fuzz_runner
+  - cmd: /fuzz_runner_no_inst @@
+    libfuzzer: false

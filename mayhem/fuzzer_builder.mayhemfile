@@ -1,0 +1,7 @@
+project: aptos-core
+target: fuzzer-builder
+
+cmds:
+  - cmd: /fuzzer_builder
+  - cmd: /fuzzer_builder_no_inst @@
+    libfuzzer: false
